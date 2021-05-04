@@ -47,7 +47,7 @@ path.addAnimation("path",pathImg);
 
 //creating boy running
 mainCyclist  = createSprite(70,150,20,20);
-mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
+mainCyclist.addAnimation("SahilRunning",mainRacerImg2);
 mainCyclist.scale=0.05;
 mainCyclist.debug = "true"  
   
