@@ -17,7 +17,7 @@ var pinkendstate,redendstate;
 
 function preload(){
   pathImg = loadAnimation("Road.png");
-//   mainRacerImg1 = loadAnimation("images/mainPlayer1.png","images/mainPlayer2.png");
+  mainRacerImg1 = loadAnimation("images/mainPlayer1.png","images/mainPlayer2.png");
 //   mainRacerImg2= loadAnimation("images/mainPlayer3.png");
   
 //   cyclebell = loadSound("sound/bell.mp3")
@@ -43,7 +43,7 @@ createCanvas(1500,300);
   
 // Moving background
 path=createSprite(100,150);
-path.addAnimation("path",pathImg);
+path.addAnimation("path",mainRacerImg1);
 
 //creating boy running
 // mainCyclist  = createSprite(70,150,20,20);
