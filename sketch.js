@@ -22,17 +22,17 @@ function preload(){
   
   cyclebell = loadSound("sound/bell.mp3")
   
-  redimg =loadAnimation("/images/opponent7.png","/images/opponent8.png")
+  redimg =loadAnimation("images/opponent7.png","images/opponent8.png")
   
-  pinkimg =loadAnimation("/images/opponent1.png","/images/opponent2.png")
+  pinkimg =loadAnimation("images/opponent1.png","images/opponent2.png")
   
   // pinkendstate = loadAnimation("/images/opponent1.png")
   // redendstate = loadAnimation("/images/opponent8.png")
   
-  redoppfall = loadImage('/images/opponent9.png')
-  pinkoppfall = loadImage('/images/opponent3.png')
+  redoppfall = loadImage('images/opponent9.png')
+  pinkoppfall = loadImage('images/opponent3.png')
   
-  gameoverimg = loadAnimation("/images/gameOver.png")
+  gameoverimg = loadAnimation("images/gameOver.png")
   
   
 }
